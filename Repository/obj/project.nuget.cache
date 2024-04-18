@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "o/mOMoC/VeXVh2yc2Em8j6wAdn4DwI6wV6lNZlbykpNbL+s1j0iXQc8C74v5YzMxEL9bhVdWAyM5u8mDStYG3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\ParcialUno\\Repository\\Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

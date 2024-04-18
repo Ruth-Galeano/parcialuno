@@ -1,0 +1,33 @@
+CREATE TABLE IF NOT EXISTS public.cliente
+(
+    id serial,
+    nombre character varying(50),
+    apellido character varying(50),
+    documento character varying(10),
+    direccion character varying(50),
+    mail character varying(50),
+    celular character varying(10),
+    estado character varying(50),
+    id_banco integer,
+    CONSTRAINT "Cliente_pkey" PRIMARY KEY (id)
+)
+
+CREATE TABLE IF NOT EXISTS public.factura
+(
+    id serial,
+    id_cliente integer,
+    nro_factura character varying(15),
+    fecha_hora timestamp with time zone,
+    total double precision,
+    total_iva5 double precision,
+    total_iva10 double precision,
+    total_iva double precision,
+    sucursal character varying(50),
+    total_letras character varying(100),
+    CONSTRAINT "Factura_pkey" PRIMARY KEY (id),
+    CONSTRAINT fk_id_cliente FOREIGN KEY (id_cliente)
+        REFERENCES public.cliente (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID
+)
